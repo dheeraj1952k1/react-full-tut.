@@ -9,9 +9,10 @@ function App() {
   // let counter = 15
   const addValue = () => {
     if(counter<20){
-      counter = counter + 1;
-      setCounter(counter);
-      console.log("clicked", counter);
+      setCounter((prevCounter) => prevCounter + 1); 
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
     }
    
   };
